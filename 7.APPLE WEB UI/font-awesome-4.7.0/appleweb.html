@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apple Web</title>
+    <link rel="stylesheet" href="./font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.css">
+    <style>
+        *{
+           padding: 0px;
+           margin: 0px;
+           
+        }
+        #parent1{
+            height: 44px;
+            width: 100%;
+            background-color: black;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: fixed;
+        }
+        .ch11{
+            
+            margin-left: 30px;
+        }
+       #child11{
+            width: 32px;
+            font-size: 17px;     
+       }
+       #child12{
+            width: 30px;
+            font-size: 17px;     
+            color: white;
+       }
+       #child13{
+            width: 23px;
+            font-size: 17px;     
+            color: white;
+       }
+       #child14{
+            width: 24px;
+            font-size: 17px;     
+            color: white;
+       }
+       #child15{
+            width: 38px;
+            font-size: 17px;     
+            color: white;
+       }
+       #child17{
+            width: 35px;
+            font-size: 17px;     
+            color: white;
+       }
+       #child18{
+            width: 43px;
+            font-size: 17px;     
+            color: white;
+       }
+       #child19{
+            width: 90px;
+            font-size: 17px;     
+            color: white;
+            /* border: 1px solid white; */
+       }
+       #child20{
+            width: 77px;
+            font-size: 17px;     
+            color: white;
+       }
+       #child21{
+            width: 68px;
+            font-size: 17px;     
+            color: white;
+       }
+       #child22{
+            width: 44px;
+            font-size: 17px;     
+            color: white;
+       }
+       #child23{
+            width: 33px;
+            font-size: 17px;     
+            color: white;
+       }
+       #child24{
+            width: 32px;
+            font-size: 17px;     
+            color: white;
+       }
+       #parent2{
+            height: 44px;
+            width: 100%;
+            background-color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #1D1D1F;
+        }
+        #parent3{
+            height: 900px;
+            width: 100%;
+            background-image: url(./1.jpeg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex;
+        }
+        #data31{
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          /* border: 1px solid white; */
+          margin-left: 420px;
+          margin-top: 600px;
+        }
+        #data311{
+            /* height: 60px; */
+            width: 100%;
+            /* display: block; */
+            /* justify-content: center; */
+            font-size: 50px;
+            text-align: center;
+            color: white;
+            /* border: 1px solid white; */
+            /* margin: 0 auto; */
+        }
+        #data32{
+           width: 100%;
+           display: flex;
+           justify-content: center;
+           /* border: 1px solid white; */
+           margin-left: 420px;
+            /* margin-top: 10px; */
+            width: 100%;
+            font-size: 50px;
+            text-align: center;
+            color: white;
+            font-style: italic;
+        }
+        #data33{
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          /* border: 1px solid white; */
+          margin-left: 420px;
+         /* margin-top: 10px; */
+         width: 100%;
+            font-size: 30px;
+            text-align: center;
+            color: white;
+        }
+        #data34{
+          width: 240px;
+          height: 50px;
+          display: flex;
+          justify-content: center;
+          /* border: 1px solid white; */
+          margin-left: 850px;
+         /* margin-top: 10px; */
+         /* width: 100%; */
+            font-size: 25px;
+            text-align: center;
+            line-height: 50px;
+            /* color: white; */
+            border-radius: 10px;
+            margin-top: 5px;
+        }
+        #data34i{
+           margin-left: 10px;
+           margin-top: 14px; 
+        }
+        #parent4{
+            height:1200px;
+            width: 100%;
+            background-image: url(./2.jpeg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        #data4{
+          width: 500px;
+          margin-left: 600px;
+          padding-top: 50px;
+        }
+        #data41{
+           margin-left: 0px;
+            width: 100%;
+            font-size: 48px;
+            font-weight: 600;
+            text-align: center;
+            color: black;
+        }
+        #data42{
+            width: 100%;
+            font-size: 35px;
+            font-weight:100 ;
+            text-align: center;
+            color: black;
+        }
+        #data43{
+            width: 100%;
+            font-size: 35px;
+            font-weight: 100;
+            text-align: center;
+            color: black;
+        }
+        #data44{
+            width: 100%;
+            font-size: 25px;
+            font-weight: 100;
+            text-align: center;
+            color: black;
+            text-decoration: none;
+        }
+        .d44a1{
+            margin-left: 25px;
+            text-decoration: none;
+        }
+        #parent5{
+            height: 1200px;
+            width: 100%;
+            background-image: url(./3.jpeg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        #data5{
+          width: 500px;
+          margin-left: 600px;
+          padding-top: 50px;
+        }
+        
+        #parent6{
+            height: 800px;
+            width: 100%;   
+            display: flex; 
+            margin: 20px;
+        }
+        #parent61{
+            height: 100%;
+            width: 50%;
+            background-image: url(./4.jpeg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;    
+            margin-right: 10px;
+        }
+        #data612{
+            width: 100%;
+            text-align: center;
+            padding-top: 60px;
+        }
+        #data613{
+            width: 100%;
+            font-size: 35px;
+            font-weight: 600;
+            text-align: center;
+            color: white;
+        }
+        #data614{
+            width: 100%;
+            font-size: 30px;
+            font-weight: 100;
+            text-align: center;
+            color: white;
+            text-decoration: none;
+        }
+        .d61a1{
+            font-size: 25px;
+            margin-left: 25px;
+            text-decoration: none;
+        }
+        #parent62{
+            height: 100%;
+            width: 50%;
+            background-image: url(./5.jpeg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover; 
+            margin-left: 10px;   
+        }
+        #d621{
+            width: 100%;
+            text-align: center;
+            padding-top: 60px;
+        }
+        #d622{
+            width: 100%;
+            font-size: 35px;
+            font-weight: 600;
+            text-align: center;
+            color: white;
+            padding-left: 0;
+        }
+        #d623{
+            width: 100%;
+            font-size: 20px;
+            font-weight: 100;
+            text-align: center;
+            color: white;
+            text-decoration: none;
+        }
+        #d624{
+            width: 100%;
+            font-size: 25px;
+            font-weight: 100;
+            text-align: center;
+            color: white;
+            text-decoration: none;
+        }
+        #d625{
+            width: 100%;
+            font-size: 30px;
+            font-weight: 100;
+            text-align: center;
+            color: white;
+            text-decoration: none;
+        }
+        .d62a1{
+            font-size: 25px;
+            margin-left: 25px;
+            text-decoration: none;
+        }
+        #parent7{
+            height: 800px;
+            width: 100%;   
+            display: flex; 
+            margin: 20px;
+        }
+        #parent71{
+            height: 100%;
+            width: 50%;
+
+        }
+        #parent711{
+            height: 25%;
+            width: 100%;
+        }
+        #d713{
+            width: 100%;
+            text-align: center;
+            padding-top: 60px;
+        }
+        #d714{
+            width: 100%;
+            font-size: 35px;
+            font-weight: 600;
+            text-align: center;
+            color: black;
+            padding-left: 0;
+        }
+        #d715{
+            width: 100%;
+            font-size: 25px;
+            font-weight: 100;
+            text-align: center;
+            color: black;
+            text-decoration: none;
+        }
+        #d716{
+            width: 100%;
+            font-size: 30px;
+            font-weight: 100;
+            text-align: center;
+            color: black;
+            text-decoration: none;
+        }
+        .d71a1{
+            font-size: 25px;
+            margin-left: 25px;
+            text-decoration: none;
+        }
+        #parent712{
+            height: 600px;
+            width: 100%;
+            background-image: url(./6.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            /* background-size: cover;  */
+            
+        }
+        
+        #parent72{
+            height: 100%;
+            width: 50%;
+            background-image: url(./7.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover; 
+            margin-left: 10px;   
+        }
+        #d723{
+            width: 100%;
+            text-align: center;
+            padding-top: 60px;
+        }
+        #d724{
+            width: 100%;
+            font-size: 35px;
+            font-weight: 600;
+            text-align: center;
+            color: white;
+            padding-left: 0;
+        }
+        #d725{
+            width: 100%;
+            font-size: 25px;
+            font-weight: 100;
+            text-align: center;
+            color: white;
+            text-decoration: none;
+        }
+        #d726{
+            width: 100%;
+            font-size: 30px;
+            font-weight: 100;
+            text-align: center;
+            color: white;
+            text-decoration: none;
+        }
+        .d72a1{
+            font-size: 25px;
+            margin-left: 25px;
+            text-decoration: none;
+        }
+        #parent8{
+            height: 800px;
+            width: 100%;   
+            display: flex; 
+            margin: 20px;
+        }
+        
+        #parent81{
+            height: 100%;
+            width: 50%;
+            background-image: url(./8.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;    
+            margin-right: 10px;
+        }
+        #d823{
+            width: 100%;
+            text-align: center;
+            padding-top: 60px;
+        }
+        #d824{
+            width: 100%;
+            font-size: 35px;
+            font-weight: 600;
+            text-align: center;
+            color: black;
+            padding-left: 0;
+        }
+        #d825{
+            width: 100%;
+            font-size: 25px;
+            font-weight: 500;
+            text-align: center;
+            color: black;
+            text-decoration: none;
+        }
+        #d826{
+            width: 100%;
+            font-size: 25px;
+            font-weight: 500;
+            text-align: center;
+            color: black;
+            text-decoration: none;
+        }
+        #d827{
+            width: 100%;
+            font-size: 30px;
+            font-weight: 500;
+            text-align: center;
+            color: #0066cc;
+            text-decoration: none;
+        }
+        .d82a1{
+            font-size: 25px;
+            margin-left: 25px;
+            text-decoration: none;
+        }
+        #parent82{
+            height: 100%;
+            width: 50%;
+            background-image: url(./9.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover; 
+            margin-left: 10px;   
+        }
+        #d833{
+            width: 100%;
+            text-align: center;
+            padding-top: 60px;
+        }
+        #d834{
+            width: 100%;
+            font-size: 35px;
+            font-weight: 600;
+            text-align: center;
+            color: black;
+            padding-left: 0;
+        }
+        #d835{
+            width: 100%;
+            font-size: 25px;
+            font-weight: 500;
+            text-align: center;
+            color: black;
+            text-decoration: none;
+        }
+        #d836{
+            width: 100%;
+            font-size: 25px;
+            font-weight: 500;
+            text-align: center;
+            color: black;
+            text-decoration: none;
+        }
+        #d837{
+            width: 100%;
+            font-size: 30px;
+            font-weight: 500;
+            text-align: center;
+            color: #0066cc;
+            text-decoration: none;
+        }
+        .d83a1{
+            font-size: 25px;
+            margin-left: 25px;
+            text-decoration: none;
+        }
+        #scr1{
+            height: 600px;
+            width: 100%;
+            background-image: url(./10.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        #scr2{
+            height: 800px;
+            width: 100%;
+            background-image: url(./11.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+       
+    </style>
+</head>
+<body>
+   <div id="superparent">
+    <div id="parent1">
+        <a id="child11" class="ch11"><i class="fa fa-apple" aria-hidden="true" style="color: white;"></i></a>
+        <div id="child12" class="ch11">Store</div>
+        <div id="child13" class="ch11">Mac</div>
+        <div id="child14" class="ch11">iPad</div>
+        <div id="child15" class="ch11">iPhone</div>
+        <!-- <div id="child16" class="ch11">Mac</div> -->
+        <div id="child17" class="ch11">Watch</div>
+        <div id="child18" class="ch11">AirPods</div>
+        <div id="child19" class="ch11">TV & Home</div>
+        <div id="child20" class="ch11">Entertainment</div>
+        <div id="child21" class="ch11">Accessories</div>
+        <div id="child22" class="ch11">Support</div>
+        <div id="child23" class="ch11"><i class="fa fa-search" aria-hidden="true" style="color: white;"></i></div>
+        <div id="child24" class="ch11"><i class="fa fa-shopping-bag" aria-hidden="true" style="color: white;"></i></div> 
+    </div>
+    <div id="parent2">
+        Get $200–$600 in credit toward iPhone 14 or iPhone 14 Pro when you trade in iPhone 11 or higher.1 Shop iPhone
+    </div>
+    <div id="parent3">
+        <div id="data3">
+          <h2 id="data31">
+             <span id="data311"><i class="fa fa-apple" aria-hidden="true" style="color: white;"></i> 
+                    tv+  
+             </span>  
+         </h2>
+          <h3 id="data32">TED LASSO </h3>
+          <h6 id="data33">SEASON 3</h6>
+          <button id="data34">Stream now <i class="fa fa-play-circle" aria-hidden="true" id="data34i"></i></button>
+        </div>
+    </div>
+    <div id="parent4">
+        <div id="data4">
+            <h2 id="data41">iPhone 14</h2>
+            <br>
+            <h3 id="data42">Two great sizes</h3>
+            <h3 id="data43">Now with splash of yellow.</h3>
+            <br>
+            <div id="data44">
+            <a href="https://www.apple.com/iphone-14/" id="d44a1" class="d44a1">Learn more ></a>
+            <a href="https://www.apple.com/shop/buy-iphone/iphone-14" id="d44a2" class="d44a1">Buy ></a>
+            </div>
+        </div>
+    </div>
+    <div id="parent5"></div>
+    <div id="parent6">
+      <div id="parent61">
+        <div id="data612">
+            <h2 id="data613">iPhone 14 Pro</h2>
+            <h3 id="data614">Pro.Beyond</h3>
+            <br>
+            <div id="data615">
+            <a href="https://www.apple.com/iphone-14/" id="d61a1" class="d61a1">Learn more ></a>
+            <a href="https://www.apple.com/shop/buy-iphone/iphone-14" id="d61a2" class="d61a1">Buy ></a>
+            </div>
+        </div>
+      </div>
+      <div id="parent62">
+        <div id="d621">
+            <h4 id="d622" class="p621"><i class="fa fa-apple" aria-hidden="true" style="color: white;"></i> WATCH</h4>
+            <h5 id="d623">SERIES 8</h5>
+            <h5 id="d624">A healthy leap ahead.</h5>
+            <br>
+            <div id="d625">
+                <a href="https://www.apple.com/iphone-14/" id="d62a1" class="d62a1">Learn more ></a>
+                <a href="https://www.apple.com/shop/buy-iphone/iphone-14" id="d62a2" class="d62a1">Buy ></a>
+            </div>
+        </div>
+      </div>  
+    </div>
+    <div id="parent7">
+     <div id="parent71">
+          <div id="parent711">
+            <div id="d713">
+                <h2 id="d714">iPhone 14 Pro</h2>
+                <h3 id="d715">Pro.Beyond</h3>
+                <br>
+                <div id="d716">
+                <a href="https://www.apple.com/iphone-14/" id="d71a1" class="d71a1">Learn more ></a>
+                <a href="https://www.apple.com/shop/buy-iphone/iphone-14" id="d71a2" class="d71a1">Buy ></a>
+                </div>
+            </div>
+          </div>
+          <div id="parent712"></div>
+     </div>
+     <div id="parent72">
+        <div id="d723">
+            <h2 id="d724">MacBook Pro</h2>
+            <h3 id="d725">Supercharged by M2 Pro and M2 Max</h3>
+            <br>
+            <div id="d726">
+            <a href="https://www.apple.com/iphone-14/" id="d72a1" class="d72a1">Learn more ></a>
+            <a href="https://www.apple.com/shop/buy-iphone/iphone-14" id="d72a2" class="d72a1">Buy ></a>
+            </div>
+        </div>
+     </div>  
+   </div>
+   <div id="parent8">
+     <div id="parent81">
+        <div id="d823">
+            <h2 id="d824"><i class="fa fa-apple" aria-hidden="true" style="color: black;"></i>Fitness+</h2>
+            <h3 id="d825">Welcome to the year of you.</h3>
+            <h3 id="d826">Now all you need is iPhone.</h3>
+            <br>
+            <div id="d827">
+            <a href="https://www.apple.com/iphone-14/" id="d82a1" class="d82a1">Learn more ></a>
+            <a href="https://www.apple.com/shop/buy-iphone/iphone-14" id="d82a2" class="d82a1">Try if free ></a>
+            </div>
+        </div>
+     </div>
+     <div id="parent82">
+        <div id="d833">
+            <h2 id="d834"><i class="fa fa-apple" aria-hidden="true" style="color: black;"></i>Card</h2>
+            <h3 id="d835">Get up to 30% Daily Cash back.</h3>
+            <h3 id="d836">with every purchase.</h3>
+            <br>
+            <div id="d837">
+            <a href="https://www.apple.com/iphone-14/" id="d83a1" class="d83a1">Learn more ></a>
+            <a href="https://www.apple.com/shop/buy-iphone/iphone-14" id="d83a2" class="d83a1">Apply now ></a>
+        </div>
+    </div>
+     </div>  
+   </div>
+   <div id="scr1"></div>
+   <div id="scr2"></div>
+   </div>
+</body>
+</html>
