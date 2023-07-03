@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+            font-family: 'Roboto', sans-serif;
+        }
+        header{
+            display: flex;
+            margin-left: 1230px;
+            margin-top: 10px;
+            /* font-family: arial snas; */
+
+        }
+        .head{
+            height: 40px;
+            text-decoration: none;
+            color:  rgba(0,0,0,.87);
+            text-align: center;
+            line-height: 40px;
+            margin-left: 20px;
+            font-size: 13px;
+        }
+        #a4{
+            width: 80px;
+           background-color:#1a73e8;;
+           color: white;
+           font-size: 18px;
+           font-weight: 500;
+
+        }
+        #img{
+           height: 100px;
+           width: 300px;
+           background-image: url(./googlepic.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            /* border: 1px solid; */
+            margin: 0 auto;
+            margin-top: 150px;
+            display: flex;
+        }
+        #searchbar{
+            height: 45px;
+            width: 450px;
+            position: absolute;
+            margin-top: 40px;
+            margin-left: 505px;
+        }
+        #sr{
+         position: absolute;
+         z-index: 1;
+         margin-left: 15px;
+         margin-top: 13px;
+         font-size: 15px;
+
+        }   
+        #search{
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            margin: 0 auto;
+            border-radius: 45px;
+            padding: 0 40px 0 60px;
+            box-shadow: 0 2px 10px -7px #000;
+            border: 0.5px solid #d5d4d4 ;
+            font-size: 17px;
+        } 
+        #microphone{
+            position: absolute;
+         /* z-index: 1; */
+         margin-left: 520px;
+         margin-top: 13px;
+         font-size: 15px;
+        }  
+        #footer{
+            position: absolute;
+            height: 48px;
+            width: 48px;
+            background-color: rgb(241, 243,244);
+            border-radius: 50%;
+            margin-left: 750px;
+            margin-top: 120px;
+            justify-content: center;
+            align-items: center;
+            font-size: 13px;
+            font-weight: 500;  
+            line-height: 48px;
+        }
+         #ft{
+            padding-left: 18px;
+         }
+         #srt{
+            height: 40px;
+            line-height: 40px;
+            font-size: 13px;
+            margin-left: 739px;
+            margin-top: 170px;
+         }
+
+    </style>
+
+</head>
+<body>
+    <header>
+            <a class="head" href="#">Gmail</a>
+            <a class="head" href="#">Images</a>
+            <a class="head" href="#"><i class="fa fa-th fa-lg" aria-hidden="true"></i></a>
+            <a id="a4" class="head" href="https://accounts.google.com/v3/signin/identifier?dsh=S705042878%3A1678377871332435&continue=https%3A%2F%2Fwww.google.com%2F&ec=GAZAmgQ&hl=en&passive=true&flowName=GlifWebSignIn&flowEntry=ServiceLogin&ifkv=AWnogHfLnfMC9qgH_dAR2Zkdpct4TXjICGr40vsapNDKnrCocoe8uO77PAl0-s19VOk43QiL-arBvA">Sign in</a>
+    </header>
+    <div id="img"></div>
+     <div id="searchbar">
+        <div id="sr"><i class="fa fa-search fa-lg"  aria-hidden="true"></i></div>
+        <input id="search" type="text" placeholder="Search Google or type a URL" ></input>
+        <div id="microphone"><i class="fa fa-microphone fa-lg" aria-hidden="true"></i></div>
+     </div>
+     <div id="footer">
+        <div id="ft">
+            <i class="fa fa-plus fa-lg" aria-hidden="true"></i>
+        </div>
+    </div>
+    <div id="srt">Add shortcut</div>
+     
+
+     
+</body>
+</html>
