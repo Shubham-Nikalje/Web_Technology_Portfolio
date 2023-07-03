@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NoBroker</title>
+    <link rel="stylesheet" href="./font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.css">
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+            font-family: Source Sans Pro, sans-serif;
+        }
+
+        body {
+            height: 100%;
+        }
+
+        header {
+            display: flex;
+            width: 100%;
+            align-items: center;
+        }
+
+        #nav1 {
+            height: 71px;
+            width: 100%;
+            /* padding: 5px; */
+            box-shadow: 0px 2px 10px rgb(0 0 0 / 11%);
+            background-color: white;
+            display: flex;
+            /* border: 1px solid; */
+            align-items: center;
+        }
+
+        #img1 {
+            margin-left: 20px;
+        }
+
+        #hdiv {
+            height: 50px;
+            /* border: 1px solid; */
+            width: 820px;
+            display: flex;
+            align-items: center;
+            margin-left: 890px;
+            /* margin-right: 10px; */
+        }
+
+        .headsub {
+            height: 40px;
+            width: 150px;
+            display: flex;
+            align-items: center;
+            border: 1px solid;
+            margin: 0px;
+            padding: 0px;
+            margin-left: 20px;
+        }
+
+        .himg {
+            /* border: 1px solid; */
+            margin-left: 10px;
+
+        }
+
+        .hdata {
+            margin-left: 10px;
+            text-decoration: none;
+        }
+
+        #hspan6 {
+            height: 40px;
+            width: 150px;
+            line-height: 40px;
+            border: 1px solid black;
+            padding-left: 10px;
+            background-color: #007a6f;
+            color: white;
+        }
+
+        #hspan7 {
+            height: 40px;
+            width: 70px;
+            line-height: 40px;
+            border: none;
+            border-right: 1px solid;
+            padding-left: 10px;
+        }
+
+        #hspan8 {
+            height: 40px;
+            width: 70px;
+            line-height: 40px;
+            border: none;
+            border-right: 1px solid;
+            padding-left: 10px;
+        }
+
+        #hspan9 {
+            height: 40px;
+            width: 110px;
+            display: flex;
+            align-items: center;
+            /* border: 1px solid; */
+            margin: 0px;
+            padding: 0px;
+            margin-left: 20px;
+        }
+         #mbody{
+            height: 500px;
+            width: 100%;
+            /* border: 1px solid; */
+         }
+        #mdiv1 {
+            font-size: 32px;
+            margin-top: 100px;
+            display: flex;
+            justify-content: center;
+            font-weight: bold;
+
+        }
+
+        .mimg {
+            /* border: 1px solid; */
+            margin-left: 10px;
+
+        }
+
+        .mdata {
+            margin-left: 10px;
+            /* border: 1px solid; */
+        }
+
+        #mspan {
+            display: flex;
+            height: 60px;
+            width: 500px;
+            /* border: 1px solid; */
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto;
+            margin-top: 30px;
+            background-color: #FCB24733;
+        }
+
+        .msub {
+            height: 40px;
+            width: 200px;
+            display: flex;
+            align-items: center;
+            /* border: 1px solid; */
+            margin: 0px;
+            padding: 0px;
+            margin-left: 10px;
+        }
+
+        #mspan3 {
+            border: none;
+            border-right: 1px solid;
+        }
+
+        #mdiv3 {
+            margin-top: 35px;
+            font-size: 20px;
+            font-weight: bold;
+            display: flex;
+            margin-left: 750px;
+
+        }
+
+        .mddiv {
+            height: 50px;
+            width: 130px;
+            border: 1px solid;
+            text-align: center;
+            line-height: 50px;
+            text-decoration: none;
+            /* margin: 0 auto; */
+        }
+
+        #dropdownform {
+            height: 64px;
+            width: 150px;
+            font-size: 20px;
+        }
+
+        #inputtext1 {
+            height: 60px;
+            width: 700px;
+            font-size: 20px;
+        }
+
+        #search {
+            display: flex;
+            margin-left: 400px;
+        }
+
+        #searchbox {
+            height: 62px;
+            width: 200px;
+            border: 1px solid;
+            background-color: #E3324A;
+            display: flex;
+            text-decoration: none;
+        }
+        #searchicon{
+            font-size: 27px;
+            color: white;
+            margin-top: 15px;
+            margin-left: 35px;
+        }
+        #searchtext {
+            font-size: 27px;
+            color: white;
+            line-height: 60px;
+            margin-left: 10px;
+        }
+
+        #radio {
+            height: 60px;
+            width: 1055px;
+            border: 1px solid;
+            margin-left: 400px;
+            line-height: 60px;
+        }
+
+        .rd {
+            margin-left: 10px;
+        }
+
+        #dropdownform2 {
+            height: 40px;
+            width: 200px;
+            margin-left: 10px;
+            /* font-size: px; */
+        }
+
+        /* .headsub{
+            margin-top: 50px;
+            position: relative;
+        } */
+        #text1 {
+
+            font-weight: 400;
+            font-size: 20px;
+            color: #787676;
+            text-align: center;
+            margin-top: 50px;
+            margin-bottom: 15px;
+            padding-top: 10px;
+        }
+        #btn5{
+            height: 40px;
+            width: 150px;
+            line-height: 40px;
+            color: #919191;           
+            padding: 0px;
+            margin: 30px;
+            margin-left: 835px;
+            font-size: 20px;
+        }
+        .btn3{
+            text-align: center;
+            height: 50px;
+            width: 250px;
+            background-color: rgba(15, 156, 130, 1);
+            color: white;
+            border: none;
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav id="nav1">
+            <img src="https://assets.nobroker.in/static/img/logos/nb_logo_new_trans.svg" alt="" width="170px"
+                height="45px" id="img1">
+            <div id="hdiv">
+                <span class="headsub" id="hspan2">
+                    <img src="https://assets.nobroker.in/nb-new/public/myBooking.svg" alt="" width="22px" height="22px"
+                        id="img2" class="himg">
+                        <a href="" id="hspan3" class="hdata">My Bookings</a>
+                </span>
+                <span class="headsub" id="hspan4">
+                    <img src="https://assets.nobroker.in/nb-new/public/payrent.png" alt="" width="26px" height="22px"
+                        id="img3" class="himg">
+                        <a href="" id="hspan5" class="hdata">Pay Rent</a>
+                </span>
+                <a href="" id="hspan6" class="hdata">For Property owners</a>
+                </span>
+                    <a href="" id="hspan7" class="hdata">Sign up</a>
+                    <a href="" id="hspan7" class="hdata">Log in</a>
+                <span id="hspan9">
+                    <img src="https://assets.nobroker.in/nb-new/public/hamburger-menu.svg" alt="" width="22px"
+                        height="22px" id="img2" class="himg">
+                        <a href="" id="hspan10" class="hdata">Menu</a>
+                </span>
+                </span>
+
+            </div>
+        </nav>
+    </header>
+    <div id="mbody">
+        <div id="mdiv1">World's Largest NoBrokerage Property Site</div>
+        <div id="mdiv2">
+            <span id="mspan">
+                <span class="msub" id="mspan3">
+                    <img src="https://assets.nobroker.in/nb-new/public/Home/RAIcon.svg" alt="" width="30px"
+                        height="30px" id="mimg1" class="mimg">
+                    <span id="mspan1" class="mdata">Rental Agreement</span>
+                </span>
+                <span class="msub" id="mspan4">
+                    <img src="https://assets.nobroker.in/nb-new/public/Home/deliveryIcon.svg" alt="" width="30px"
+                        height="30px" id="mimg2" class="mimg">
+                    <span id="mspan2" class="mdata">Next Day Delivery</span>
+                </span>
+            </span>
+            <div id="mdiv3">
+                <a href="" class="mddiv" id="mddiv11">Buy</a>
+                <a href="" class="mddiv" id="mddiv21">Rent</a>
+                <a href="" class="mddiv" id="mddiv31">Commercial</a>
+            </div>
+            <div id="search">
+                <select name="" id="dropdownform">
+                    <option value="" selected>Mumbai</option>
+                    <option value="">Banglore</option>
+                    <option value="">Chennai</option>
+                    <option value="">Pune</option>
+                    <option value="">Gurgoan</option>
+                    <option value="">Hydradad</option>
+                </select><input type="text" placeholder="Search upto 3 localities or landmarks" id="inputtext1">
+                <a href="" id="searchbox">
+                        <i class="fa fa-search" aria-hidden="true" id="searchicon"></i>
+                        <!-- <a id="searchtext" href="">Search</a> -->
+                        <div id="searchtext">Search</div>
+                </a>
+            </div>
+            <div id="radio">
+                <input type="radio" name="shubham" id="ss" class="rd">
+                <label for="ss">Rent</label>
+                <input type="radio" name="shubham" id="sl" class="rd">
+                <label for="sl">Buy</label>
+                <select name="" id="dropdownform2">
+                    <option value="" disabled selected>Property Type</option>
+                    <option value="">Banglore</option>
+                    <option value="">Chennai</option>
+                    <option value="">Pune</option>
+                    <option value="">Gurgoan</option>
+                    <option value="">Hydradad</option>
+                </select>
+            </div>
+            <div>
+                <div id="text1">
+                    <span>-------Are you a Property Owner?-------</span>
+                </div>
+                <div class="btn" id="btn5">
+                    <button class="btn3" id="" type="button">Post Free Property Ad</button>
+                </div>
+            </div>
+            
+        </div>
+        
+    </div>
+    
+</body>
+
+</html>
